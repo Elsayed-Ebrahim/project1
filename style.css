@@ -1,0 +1,176 @@
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+    display:flex;
+    margin: 0;
+}
+
+header li{
+    margin-right: 30px;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: rgb(217, 224, 224);
+    margin:20px 40px ;
+    padding: 0 30px;
+    border-radius: 30px;
+}
+
+header ul li img{
+    margin-top: 25px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover ;
+    background-color: rgba(217,  224, 224);
+    padding: 9px;
+    border-radius: 10px;
+}
+
+header ul li a{
+    padding: 0;
+    margin: 0;
+}
+
+
+.par{
+   background-color: rgb(217, 224, 224);
+   text-align: center;
+   display: flex;
+   height:500px;
+   justify-content: space-between;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+img{
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    display: flex;
+    margin-top:1px ;
+    
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   gap: 5%;
+   padding: 0px;
+   margin: 0px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 239, 239);
+    box-sizing: border-box;
+}
+
+.card{
+    margin: 20px 0;
+    width: 200px;
+    /* max-width: 100%; */
+}
+
+.card-img{
+    position: relative;
+    height: 100px;
+    width: 40px;
+    border-radius: 100px;
+
+}
+.card1{
+    text-align: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.cardsmad{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    top: -100px;
+   justify-content: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 239, 239);
+    box-sizing: border-box;
+
+}
+.card2{
+    justify-content: right;
+    text-align: right;
+}
+
+.blog-sec{
+    display: block;
+}
+.form{
+    margin: 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form .form-group {
+    flex: 1 1 45%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.form .full-width {
+    flex: 1 1 100%;
+}
+
+.contact-us h2{
+    margin: 20px 40px;
+}
+
+.contact-us{
+    background-color: rgb(212, 213, 214);
+    margin: 20px 20px;
+    padding: 10px;
+}
+
+.contact-us label{
+    margin-bottom: 50px;
+}
+
+.btn-contact input{
+    background-color:#878c91;
+    color: #ddd;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 12px 50px;
+    border-radius: 40px;
+}
+
+.hire-section{
+    background-color: #798490;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 100%;
+    height: 70px;
+    width: 100%;
+}
+
+.contact-btn-hire{
+    background-color: #a9adb2;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 8px;
+    margin-top: 3px;
+    color: white;
+}
+
+.com-img{
+    width: 240px;
+    height: 110px;
+}
+
+
